@@ -11,7 +11,7 @@ var backgroundImg,platform;
 var bird, slingshot;
 
 var gameState = "onSling";
-var bg = "sprites/bg1.png";
+var bg = "bg1.png";
 var score = 0;
 
 // Creates the preload function
@@ -111,11 +111,11 @@ async function getBackgroundImg(){
     var hour = datetime.slice(11,13);
     //If the hour is between 6 to 19, this image will show up.
     if(hour>=06 && hour<=19){
-        bg = "sprites/bg.png";
+        bg = "bg.png";
     }
     // Otherwise, this image shows up.
     else{
-        bg = "sprites/bg2.png";
+        bg = "bg2.png";
     }
     //"bg" will be the background.
     backgroundImg = loadImage(bg);
