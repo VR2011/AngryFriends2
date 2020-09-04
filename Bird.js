@@ -2,9 +2,9 @@
 class Bird extends BaseClass {
   constructor(x,y){
     super(x,y,50,50);
-    this.image = loadImage("sprites/bird.png");
+    this.image = loadImage("bird.png");
     // Creates the smoke Image array.
-    this.smokeImage = loadImage("sprites/smoke.png");
+    this.smokeImage = loadImage("smoke.png");
     //this.trajectory is a empty array.
     this.trajectory =[];
   }
