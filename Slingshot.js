@@ -9,9 +9,9 @@ class SlingShot{
             length: 10
         }
         //Loads the image for each part.
-        this.sling1 = loadImage('sprites/sling1.png');
-        this.sling2 = loadImage('sprites/sling2.png');
-        this.sling3 = loadImage('sprites/sling3.png');
+        this.sling1 = loadImage('sling1.png');
+        this.sling2 = loadImage('sling2.png');
+        this.sling3 = loadImage('sling3.png');
         //Sets the variable. 
         this.pointB = pointB;
         //Creates the constraint.
