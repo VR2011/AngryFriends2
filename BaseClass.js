@@ -12,7 +12,7 @@ class BaseClass{
         this.body = Bodies.rectangle(x, y, width, height, options);
         this.width = width;
         this.height = height;
-        this.image = loadImage("sprites/base.png");
+        this.image = loadImage("base.png");
         //Adds the body to the world.
         World.add(world, this.body);
       }
